@@ -55,7 +55,7 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;	
 
-    	cpi = <1600>;   // ← ★これを追加（800→1200→1600→2000…の順で試すのが定石）
+    	cpi = <1600>;   
 
 	automouse-layer = <4>;
 	scroll-layers = <5>;
